@@ -1,0 +1,268 @@
+.example-links{
+	margin-top: 50px;
+	position: relative;
+	li{
+			margin-right: 10px;
+			float: left;
+		}
+}
+.example-background {
+	padding-top: 15px;
+	.intro{
+		padding-bottom: 15px;
+		p{
+			font-size: 1.3rem;
+
+		}
+	}
+
+	ul.skills{
+		.clearfix;
+		li{
+			.rounded_corners(5px);
+			background: @tag-bk;
+			color: @tag-color;
+			font-size: .9em;
+			padding: 2px 5px;
+			margin-right: 5px;
+			float: left;
+
+		}
+	}
+
+	p.example-desc {
+		margin: 2rem 0;
+	}
+	#example-balfab a{
+		display: block;
+		margin-top: 10px;
+		height: 400px;
+		background: url(../images/balfab.png) no-repeat top left; 
+          -webkit-background-size: contain;
+          -moz-background-size: contain;
+          -o-background-size: contain;
+          background-size: contain;
+          position: relative;
+          span{
+          	position: absolute;
+          	color: #fff;
+          	top: 0;
+          	left: 2px;
+          }
+	}
+	#example-parallax a{
+		display: block;
+		margin-top: 10px;
+		height: 400px;
+		background: url(../images/parallax.png) no-repeat top left; 
+          -webkit-background-size: contain;
+          -moz-background-size: contain;
+          -o-background-size: contain;
+          background-size: contain;
+          position: relative;
+          span{
+          	position: absolute;
+          	color: #fff;
+          	top: 0;
+          	left: 2px;
+          }
+	}
+.next-example{
+	clear: both;
+	margin-top: 10px;
+}
+/*chart styles*/
+	.chart{
+	position: relative;
+	margin:  20px 0px 50px 70px;
+	padding: 0;
+	.grid-line {
+	    position: absolute;
+	    border-bottom: dashed 1px @dark_gray;
+	    width: 100%;
+	    span{
+	      position: absolute;
+	      left: -70px;
+	      top: -11px;
+	      font-weight: bold;
+	      color: @dark_gray;
+	      text-align: right;
+	      width: 65px;
+	    }
+	}
+
+	.name {
+		position: absolute;
+		width: 100%;
+		bottom: -40px;
+		min-height: 40px;
+	}
+	}
+	.bar{
+		float: left;
+		text-align: center;
+		margin: 0 1%;
+		width: 9.1%;
+		position: relative;
+		height: 100%;
+		z-index: 1;
+
+		.fuel-costs{
+			.transition-all;
+			height: 0%;
+			width: 100%;
+			background: @fuel-costs;
+			position: absolute;
+			bottom: 0%;
+			color: @white;
+
+
+		}
+		.year-payment{
+			.transition-all;
+			height: 0%;
+			width: 100%;
+			background: @car-costs;
+			position: absolute;
+			bottom:  0;
+			color: @white;
+		}
+		.lowest-cost{
+				.transition-all;
+				.transparent(0,0);
+				.rounded_corners(5px);
+				width: 100%;
+				position: absolute;
+				bottom: 0;
+				margin-bottom: 10px;
+				background: @dark_gray;
+				color: @white;
+				line-height: 1.2em;
+				padding: 2px;
+				&:after{
+					content: "";
+					border-top: solid 8px @dark_gray;
+					border-left: solid 8px transparent;
+					border-right: solid 8px transparent;
+					height: 0;
+					width: 0;
+					position: absolute;
+					bottom: -8px;
+					left: 50%;
+					margin-left: -8px;
+				}
+
+				&.show{
+					.transparent(1,1);
+				}
+
+			}
+		.cover-div{
+			height: 0;
+			width: 100%;
+			background: transparent;
+			position: absolute;
+			bottom:  0;
+			z-index: 50;
+		}
+
+	}
+}
+.chart-sliders{
+	h4{
+		margin: 20px 0 10px 0;
+	}
+
+	.car-cost, .fuel-cost{
+		position: relative;
+		padding-left: 25px;
+		span{
+			display: inline-block;
+			height: 20px;
+			width: 20px;
+			position: absolute;
+			left: 0;
+		}
+	}
+	.car-cost span{
+		background: @car-costs;
+	}
+
+	.fuel-cost span{
+		background: @fuel-costs;
+	}
+}
+.ui-slider{
+	background: @dark_gray;
+	border: none;
+	height: 27px;
+	border-top: none;
+	border-bottom: none;
+
+	.ui-slider-handle {
+		.rounded_corners(3px);
+		background: @secondary;
+		border: none;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+	}
+}
+
+.danger-meter{
+
+    .gauge-container{
+          width: 200px;
+          height: 100px;
+          margin: 10px;
+          position: relative;
+          background: url('../images/guage_bk.png')  no-repeat;
+          cursor: pointer;
+          float: left;
+          #meter{
+            fill: @dark_gray;
+          }
+        }
+  
+    .level-container{
+    	float: left;
+    	margin: 10px;
+    .transition-all();
+    	&.safe{
+    		color: @primary;
+	    	.level{
+	    		font-size: 1.1em;
+	    	}
+	    	.desc{
+	    		font-size: 1.5em;
+	    	}
+    }
+    &.okay{
+    		color: @secondary;
+	    	.level{
+	    		font-size: 1.2em;
+	    	}
+	    	.desc{
+	    		font-size: 2em;
+	    	}
+    }
+    &.danger{
+    		color: @tertiary;
+	    	.level{
+	    		font-size: 1.3em;
+	    	}
+	    	.desc{
+	    		font-size: 2.5em;
+	    		font-weight: bold;
+	    	}
+    }
+
+    }
+  }
+
+  .heatmap-container{
+  	width: 80%;
+  	height: 400px;
+  	margin: 30px 15px;
+	border: solid 2px @border-color;
+  }

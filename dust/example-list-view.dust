@@ -1,0 +1,39 @@
+<div class="example-background">
+	
+{#examples}
+ <div class="_example example {@eq key="{mobile}" value="no"}hide-mobile{/eq}" id="example{id}"  data-{skEnter}="top: 100%;" data-{skEnd}="top: 10%;">
+ 		<div class="example-container">
+			<div class="example-info">
+			<h3>{title}</h3>
+			<ul class="skills">
+			  	{#skills}
+			    <li>{.}</li>
+			    {/skills}
+			  </ul>
+
+
+			<p class="example-desc">{desc}</p>
+			{?link}
+			<a href="{link}" target="_blank" class="btn example-link">View Site</a>
+
+			{/link}
+			</div>
+
+			{?link}
+			<div class="example-area" id="example-{id}">
+			<a href="{link}" target="_blank"></a>
+			</div>
+
+			{:else}
+			<div class="example-area" id="example-{id}"></div>
+			{/link}
+
+			<p class="next-example hide-mobile"><a href="#" data-menu-top="{skNext}" class="next-slide">{skNextText}</a></p>
+
+	</div>
+</div>
+
+{/examples}
+</div>
+
+  

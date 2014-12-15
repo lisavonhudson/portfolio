@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Lisa Hudson - The Portfolio</title>
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="css/font-awesome.out.css" />
+<!--link rel="stylesheet/less" type="text/css" href="css/main.less" media="all" />
+<script src="js/thirdparty/less-1.7.5.min.js" type="text/javascript"></script-->
+</head>
+
+<body>
+  <header>
+    <h1 class='col-md-6'>Lisa Hudson</h1>
+
+    <nav class='col-md-6'>
+            <ul  id="topMenu">
+                    <li><a href="#about" data-menu-top="0" class="selected _about _scrollLink">About</a></li>
+                    <li><a href="#work" data-menu-top="1000" class="_work _scrollLink">Examples</a></li>
+                    <li><a href="#resume" data-menu-top="8200" class="_resume _scrollLink">Resume</a></li>
+                    <li><a href="#contact" data-menu-top="11000" class="_contact _scrollLink">Contact</a></li>
+            </ul>
+    </nav>
+  </header>
+
+  <section id="about" data-1000="opacity: 1;" data-1500="opacity: 0;">
+    <div class="about-me" id="intro" data-0="opacity: 1;" data-300="opacity: 0;">
+       <h2>Hello</h2>
+       <div class="introduction">
+        <p>I am a UI / Front End Developer who specializes in turning a mockup, wireframe, or sketch into a website that people will enjoy using.  All of my code is hand written, is responsive, works across all browsers, and is able to be read by screen readers.</p>
+        <p>Interested?  Take a look at some of the examples I have&nbsp;built.</p>
+        <a href="#work" class="btn _scrollLink _work" data-menu-top="1000" >View Examples</a>
+       </div>
+     </div>
+  </section>
+   <section id="work" data-0="top: 100%;" data-1000="top: 10%;" data-7000="opacity: 1;" data-8400="opacity: 0;">
+       <h2>Examples</h2>
+       <div class="intro">
+         <p>I have built a lot of cool things.  I would love to show you every single one of them.  However, many of them no longer exist, are behind a 45 minute application process, or still in development.  Due to confidentiality agreements, I cannot show you anything that is currently in development, so here are some examples that are representative of my&nbsp;work.</p>
+         <ul class="example-links hide-mobile">
+            <li><a href="#examplechart" class="btn" data-menu-top="2000">Interactive Chart</a></li>
+            <li><a href="#exampleheatmaps" class="btn" data-menu-top="3000">Heatmaps</a></li> 
+            <li><a href="#examplegauge" class="btn" data-menu-top="4000">SVG Gauge</a></li> 
+            <li><a href="#examplebalfab" class="btn" data-menu-top="5000">Balfab Services</a></li> 
+            <li><a href="#exampleparallax" class="btn" data-menu-top="6000">Parallax</a></li> 
+         </ul>
+  </div>
+          <div id="exampleDesc">
+          </div>       
+     </section>
+     <section id="resume" data-7000="top: 100%;" data-11000="top: -170%;" >
+       <h2>Resume</h2>
+     </section>
+     <section id="contact" data-10000="top: 100%;" data-11000="top: 10%;" >
+       <h2 class="col-md-12">Contact</h2>
+        <div class="row contact">
+          <div class="col-sm-4">
+            <div class="icon"><i class="fa fa-envelope fa-4x"></i></div>
+            <div class="label">Email me</div>
+            <div class="text">
+              <a href="mailto:lisavonhudson@gmail.com">lisavonhudson@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+         <div class="icon"><i class="fa fa-mobile fa-4x"></i></div>
+         <div class="label">Call me</div>
+          <div class="text">608-395-4365</div>
+          </div>
+          <div class="col-sm-4">
+          <div class="icon"><i class="fa fa-home fa-4x"></i></div>
+          <div class="label">Write me</div>
+             <div class="text">
+              1509 Pine Street, Waukesha, WI 53188
+            </div>
+          </div>
+        </div>
+       
+     </section>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55075313-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <script src="js/thirdparty/skrollr.min.js"></script>
+  <script src="js/thirdparty/skrollr.menu.min.js"></script>
+  <script src="js/thirdparty/jquery-1.10.2.min.js"></script>
+  <script src="js/thirdparty/jquery-ui-1.10.3.min.js"></script>
+  <script src="js/thirdparty/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/thirdparty/dust.1.1.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
+  <script src='https://www.google.com/jsapi'></script>
+  <script src="js/globals.js"></script>
+  <script src="js/examples.js"></script>
+  <script src="js/heatmap.js"></script>
+  <script src="js/resume.js"></script>
+  <script src="js/test-drive.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{#examples}
+ <ul>
+    <li>
+      <a href="#" id="example{link}">{title}</a>
+      <ul>
+      	{#skills}
+        <li>{.}</li>
+        {/skills}
+      </ul>
+    </li>
+</ul>
+{/examples}
+
+  

@@ -1,0 +1,13 @@
+<div class="danger-meter">
+	<div class="gauge-container">
+		
+	  <svg height="200" width="200">
+	   <path transform="rotate(0 100 100)" id="meter" d="M10,100 L100,97  q6,3 0,6 Z" ></path>
+	  </svg>
+	</div>
+	<div class="level-container safe">
+		<div class="level">Level 0</div>
+		<div class="desc">Safe</div>
+	</div>
+
+</div>

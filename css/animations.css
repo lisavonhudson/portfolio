@@ -1,0 +1,31 @@
+#intro {
+  -skrollr-animation-name: animation1;
+}
+
+#work{
+  -skrollr-animation-name: animation2;
+}
+
+
+@-skrollr-keyframes animation1 {
+
+    0 {
+        opacity: 1;
+    }
+
+    300 {
+        opacity: 0;
+    }
+}
+
+@-skrollr-keyframes animation2 {
+
+    0 {
+        top: 100%;
+    }
+    1000 {
+        top: 10%;
+    }
+}
+
+

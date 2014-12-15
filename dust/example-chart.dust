@@ -1,0 +1,29 @@
+<div class="chart">
+{#cars}
+<div class="bar" data-id="{id}">
+ 	<div class="cover-div" ttc="">
+ 	</div>
+ 	<div class="fuel-costs">
+ 	</div>
+ 	<div class="year-payment">
+ 	</div>
+ 	<div class="name">{name}</div>
+ </div>
+{/cars}
+</div>
+<div class="chart-sliders row">
+	<div class="col-md-4">
+		<h4>Legend</h4>
+		<p class="fuel-cost"><span></span>Fuel costs for one year</p>
+		<p class="car-cost"><span></span>Car payments for one year</p>
+	</div>
+	<div class="col-md-4">
+		<h4>Fuel cost per gallon: <span id="fuelCost"></span></h4>
+		<div id="cpgSlider"></div>
+	</div>
+	<div class="col-md-4">
+		<h4>Miles driven per year: <span id="mpyCost"></span></h4>
+		<div id="mpySlider"></div>
+	</div>
+	
+</div>

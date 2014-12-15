@@ -1,0 +1,90 @@
+{
+	"examples":[
+		{
+			"title":  "Interactive Chart",
+			"id": "chart", 
+			"mobile": "yes",
+			"useJSON":"yes",
+			"skEnter": 1500, 
+			"skEnd": 2000,
+			"skNext": 3000,
+			"skNextText": "Next Example",
+			"desc": "The set up:  You want to buy a new car.  Your loan is for five years.  This interactive chart will help you find the lowest cost car based on estimated fuel prices and how many miles you will drive per year.  Use the sliders to create different scenarios.",
+			"skills":[
+				"CSS 3", 
+				"jQuery", 
+				"JSON",
+				"Dust"
+			]
+		},
+		{
+			"title":  "Heatmaps",
+			"id": "heatmaps", 
+			"mobile": "yes",
+			"useJSON":"yes",
+			"skEnter": 2500, 
+			"skEnd": 3000,
+			"skNext": 4000,
+			"skNextText": "Next Example",
+			"desc": "A Google map that shows you all the fun areas in Door County, WI.",
+			"skills":[
+				"Google Api", 
+				"jQuery", 
+				"JSON",
+				"KML"
+			]
+		},
+		{
+			"title":  "SVG Gauge",
+			"id": "gauge", 
+			"mobile": "no",
+			"useJSON":"no",
+			"skEnter": 3500, 
+			"skEnd": 4000,
+			"skNext": 5000,
+			"skNextText": "Next Example",
+			"desc": "This was a test with SVG.  Drag the needle on the gauge and it will change other elements on the page.",
+			"skills":[
+				"CSS 3", 
+				"jQuery", 
+				"SVG"
+			]
+		},
+		
+		{
+			"title":  "balfabservices.com",
+			"id": "balfab",
+			"link": "http://balfabservices.com",
+			"mobile": "yes",
+			"useJSON":"no",
+			"skEnter": 4500, 
+			"skEnd": 5000,
+			"skNext": 6000,
+			"skNextText": "Next Example",
+			"desc": "A freelance project for a fan repair and rebuilding company.",
+			"skills":[
+				"PHP", 
+				"jQuery", 
+				"Design",
+				"CSS"
+			]
+		},
+		{
+			"title":  "A Parallax Site",
+			"id": "parallax",
+			"link": "parallax", 
+			"mobile": "yes",
+			"useJSON":"no",
+			"skEnter": 5500, 
+			"skEnd": 6000,
+			"skNext": 8200,
+			"skNextText": "Resume",
+			"desc": "A responsive parallax site I built from a PDF designed by the marketing department.",
+			"skills":[
+				"Parallax", 
+				"CSS3",
+				"Responsive Design"
+			]
+		}
+	]
+}

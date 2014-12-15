@@ -1,0 +1,97 @@
+.rounded_corners (@radius: 3px) {
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.gradient (@startcolor: #ffffff, @endcolor: #EDEDED, @wkStart: left top, @wkEnd: left bottom, @mozStart: top){
+	background: transparent;  
+	background: -webkit-gradient(linear, @wkStart, @wkEnd, from(@startcolor), to(@endcolor));
+	background: -moz-linear-gradient(@mozStart,  @startcolor,  @endcolor);
+	filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr=%d, endColorstr=%d)", @startcolor, @endcolor));  
+	-ms-filter: %("progid:DXImageTransform.Microsoft.gradient(startColorstr=%d, endColorstr=%d)", @startcolor, @endcolor); 
+	background: -ms-linear-gradient(top, @startcolor 0%,@endcolor 100%); /* IE10+ */
+	background: linear-gradient(left top,@startcolor, @endcolor);
+}
+
+.box_shadow (@horz: 1px, @vert: 1px, @blur: 0px, @color: #efefef){
+	-webkit-box-shadow: @horz @vert @blur @color;
+	-moz-box-shadow: @horz @vert @blur @color;
+	box-shadow:  @horz @vert @blur @color;
+}
+
+
+.inset (@insethorz: 0px, @insetvert: 1px, @insetblur: 3px, @insetcolor: rgba(0,0,0,.2)) {
+		-moz-box-shadow: inset @insethorz @insetvert @insetblur @insetcolor;
+		-webkit-box-shadow: inset @insethorz @insetvert @insetblur @insetcolor;
+		 box-shadow: inset @insethorz @insetvert @insetblur @insetcolor;
+}
+.transformXY{
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.transformY{
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.transition-all(@duration: .5s){
+	transition: all @duration ease;
+   -moz-transition: all @duration ease;
+   -webkit-transition: all @duration ease;
+}
+
+.transparent(@gbt: 0.5, @iet: 50) {
+
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=@iet);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:@gbt;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: @gbt;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: @gbt;
+}
+.unselectable{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.accessible-hidden{
+	left:-999px;
+	position:absolute;
+}
+
+.fade{
+	.transparent(0,0);
+}
+
+.clearfix{
+	clear:both;
+	
+	&:after{
+			visibility: hidden;
+			display: block;
+			font-size: 0;
+			content: " ";
+			clear: both;
+			height: 0;	
+	}
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */

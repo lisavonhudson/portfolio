@@ -1,0 +1,288 @@
+{
+  "id" : "00000000-0000-0000-0000-000000000000",
+  "javascriptIndentation" : 4,
+  "files" : {
+    "main.css" : {
+      "output" : "main.out.css"
+    },
+    "f-awesome\/core.less" : {
+      "output" : "f-awesome\/core.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/icons.less" : {
+      "output" : "f-awesome\/icons.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/bordered-pulled.less" : {
+      "output" : "f-awesome\/bordered-pulled.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/stacked.less" : {
+      "output" : "f-awesome\/stacked.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/rotated-flipped.less" : {
+      "output" : "f-awesome\/rotated-flipped.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "main.less" : {
+      "imports" : [
+        "variables.less",
+        "reset.less",
+        "jquery.tooltip.less",
+        "fonts.less",
+        "grid.less",
+        "helpers.less",
+        "layout.less",
+        "examples.less",
+        "resume.less"
+      ],
+      "output" : "main.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "examples.less" : {
+      "output" : "examples.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "jquery-ui.css" : {
+      "output" : "jquery-ui.out.css"
+    },
+    "font-awesome.min.css" : {
+      "output" : "font-awesome.min.out.css"
+    },
+    "helpers.less" : {
+      "output" : "helpers.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "grid.less" : {
+      "output" : "grid.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "reset.less" : {
+      "output" : "reset.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/font-awesome.less" : {
+      "imports" : [
+        "f-awesome\/variables.less",
+        "f-awesome\/mixins.less",
+        "f-awesome\/path.less",
+        "f-awesome\/core.less",
+        "f-awesome\/larger.less",
+        "f-awesome\/fixed-width.less",
+        "f-awesome\/list.less",
+        "f-awesome\/bordered-pulled.less",
+        "f-awesome\/spinning.less",
+        "f-awesome\/rotated-flipped.less",
+        "f-awesome\/stacked.less",
+        "f-awesome\/icons.less"
+      ],
+      "output" : "f-awesome\/font-awesome.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/path.less" : {
+      "output" : "f-awesome\/path.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/spinning.less" : {
+      "output" : "f-awesome\/spinning.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "jquery.tooltip.less" : {
+      "output" : "jquery.tooltip.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/fixed-width.less" : {
+      "output" : "f-awesome\/fixed-width.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/larger.less" : {
+      "output" : "f-awesome\/larger.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "resume.less" : {
+      "output" : "resume.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/variables.less" : {
+      "output" : "f-awesome\/variables.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "font-awesome.css" : {
+      "output" : "font-awesome.out.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "fonts.less" : {
+      "output" : "fonts.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "font-awesome.out.css" : {
+      "output" : "font-awesome.out.out.css"
+    },
+    "f-awesome\/mixins.less" : {
+      "output" : "f-awesome\/mixins.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "f-awesome\/list.less" : {
+      "output" : "f-awesome\/list.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "variables.less" : {
+      "output" : "variables.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "layout.less" : {
+      "output" : "layout.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "flows" : {
+    "stylus" : {
+      "output" : "*.css",
+      "stylus" : "00000000-0000-0000-0000-000000000000"
+    },
+    "sass" : {
+      "sass" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "coffee" : {
+      "coffee" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000"
+    },
+    "jinja" : {
+      "jinja" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*"
+    },
+    "less" : {
+      "less" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "css" : {
+      "output" : "*.out.css"
+    },
+    "js" : {
+      "output" : "*.out.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "profiles" : {
+    "stylus" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "mediaquery" : false,
+        "name" : "Default Stylus Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
+      }
+    },
+    "sass" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Sass Profile",
+        "style" : "compressed",
+        "debug" : 0
+      }
+    },
+    "jshint" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default JSHint Profile",
+        "options" : [
+          "undef",
+          "unused",
+          "bitwise",
+          "curly",
+          "eqeqeq",
+          "latedef",
+          "newcap",
+          "noarg",
+          "nonew",
+          "trailing",
+          "browser",
+          "jquery"
+        ],
+        "globals" : ""
+      }
+    },
+    "less" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "imports" : false,
+        "mediaquery" : false,
+        "name" : "Default Less Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "jinja" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Jinja Profile",
+        "autoescape" : false
+      }
+    },
+    "uglify" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default UglifyJS Profile",
+        "options" : [
+          "--mangle",
+          "--compress",
+          "beautify"
+        ]
+      }
+    }
+  },
+  "version" : 10100
+}

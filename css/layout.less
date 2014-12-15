@@ -1,0 +1,81 @@
+
+body{
+	
+	margin: 0;
+	padding: 0;
+	font-family: @body-font;
+	color: @text-color;
+	background: @background-color;
+
+}
+
+a{
+	color: @link-color;
+}
+
+
+
+
+p{
+	max-width: 60rem;
+}
+
+#exampleDesc{
+	position: relative;
+}
+
+h2{
+	font-size: 8rem;
+	font-family: @header-font;
+	padding: 2rem 0;
+
+}
+
+h3{
+	.clearfix;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	&.separate{
+		padding-top: 2rem;
+		margin-top: 2rem;
+		border-top: rgba(255,255, 255,.07) 1px solid;
+	.box_shadow(0, -1px, 0, rgba(0, 0, 0, 0.2));
+	}
+}
+h4{
+	margin-top: 1rem;
+	font-size: 1.3rem;
+	}
+
+a.btn{
+	.rounded_corners(5px);
+	background: @btn-background;
+	border: @btn-border;
+	color: @btn-color;
+	padding: .5rem;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#contact{
+	.icon{
+		float: left;
+		margin-right: 15px;
+		width: 4em;
+		text-align: center;
+		color: @primary;
+
+	}
+
+	.label{
+		margin-top: 10px;
+		font-style: italic;
+		font-size: 1.2em;
+	}
+	
+	.row.contact{
+		padding: 50px 0;
+	}
+}
+

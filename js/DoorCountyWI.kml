@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Door County, WI</name>
+  <description><![CDATA[Places I like when I am in Door County, WI.  I'm missing a ton, but these cross my mind.]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Bay Side Tavern</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-87.245049,45.127682,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eagle tower &amp; terrace</name>
+    <description><![CDATA[<div dir="ltr">a tall tower and a pretty terrace.  Also a very fun hiking trail, but a little hard.</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-87.195824,45.162434,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fred &amp; Fuzzy&#39;s </name>
+    <description><![CDATA[<div dir="ltr">it's not always open, but the sunsets are great.  It is an outside restaurant and you have to walk down the road to get there.<br><br>http://www.fredandfuzzys.com/location.html</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-87.148193,45.185848,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gibraltar Grill</name>
+    <description><![CDATA[<div dir="ltr">They give you blankets if you sit outside!</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-87.234299,45.125259,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Death&#39;s door bluff</name>
+    <description><![CDATA[<div dir="ltr">A really neat park.  One goes down to the lake, the other goes to a rocky overlook.  Very interesting trees</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-87.060471,45.296684,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Newport State Park</name>
+    <description><![CDATA[<div dir="ltr">Really good place for biking</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-86.989662,45.227032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rowley&#39;s bay</name>
+    <description><![CDATA[<div dir="ltr">Great for kayaking, in the bay and up the Mink River</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-87.033905,45.219139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Husby&#39;s Food &amp; Spirits</name>
+    <description><![CDATA[<div dir="ltr">a fun bar</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-87.123138,45.187672,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cave point county park</name>
+    <description><![CDATA[<div dir="ltr">Walk along caves created by the lake.  It is so pretty!  Be sure to go along the trail to the right, it takes you along all the caves and into the state park.</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-87.173607,44.929928,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cool dock with American Flag</name>
+    <description><![CDATA[<div dir="ltr">Not sure why I like this place, but here it is.</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-87.215546,44.905602,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Birchwood Lodge</name>
+    <description><![CDATA[<div dir="ltr">Very nice condo type rooms.</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-87.123688,45.184746,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bayshore outdoor store</name>
+    <description><![CDATA[<div dir="ltr">I always find really good deals here on outdoor clothing. Moar jackets and shoes!!</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-87.129898,45.185200,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Open Hearth Lodge</name>
+    <description><![CDATA[<div dir="ltr">Less expensive place to stay, very clean and fun pool area.</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-87.142792,45.181282,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>White Gull Inn</name>
+    <description><![CDATA[<div dir="ltr">The stuffed cherry french toast here is the best.  Get there early, expect a wait.  It is worth it.</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-87.250740,45.128471,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cool view</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-87.251793,45.128887,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Washington island</name>
+    <description><![CDATA[<div dir="ltr">Super fun to take the ferry and rent scooters from Annie's.  Get there early</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-86.940826,45.340244,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fun Shops</name>
+    <description><![CDATA[<div dir="ltr">There are some fun shops here that look like houses.  Easy to miss.</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-87.376717,44.837658,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stone Harbor Resort</name>
+    <description><![CDATA[<div dir="ltr">Tasty restaurant.  Homemaid potato chips. </div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-87.379791,44.834511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walmart</name>
+    <description><![CDATA[<div dir="ltr">If you need it, here it is</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-87.358742,44.851124,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>a nice grocery store</name>
+    <description><![CDATA[<div dir="ltr">It's a Pick n' Save, or a Glens. </div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-87.349144,44.850445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Potawatomi State Park</name>
+    <description><![CDATA[<div dir="ltr">Really tall tower that looks over Sturgeon Bay.  Very pretty in Fall</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-87.412056,44.859764,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tennison Bay Campground</name>
+    <description><![CDATA[<div dir="ltr">My favorite campground, best showers.</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-87.232307,45.159828,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>US Coastguard lighthouse</name>
+    <description><![CDATA[<div dir="ltr"></div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-87.309425,44.792084,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Beachfront Inn Baileys Harbor</name>
+    <description><![CDATA[Baileys Harbor, WI 54202<br><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=45.061457,-87.123742&amp;thumb=0">]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-87.123741,45.061459,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blue Ox Bar</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-87.124596,45.061420,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baileys Harbor Cornerstone Pub</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-87.123718,45.065422,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

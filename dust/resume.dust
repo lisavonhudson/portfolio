@@ -1,0 +1,85 @@
+{#resume}
+<div class="row">
+	<div class="col-md-6">
+	<h3>Accomplishments</h3>
+		
+		<ul class="accomplishments">
+			{#accomplishments}
+			<li>{.}</li>
+			{/accomplishments}
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h3>Skills</h3>
+		
+		<ul class="r-skills">
+			{#skills}
+			<li><div class="skill">{skill}</div><div class="skill-bar" id="{id}"><div class="fill"></div></div></li>
+			{/skills}
+		</ul>
+		<div class="skills-legend">
+			<span class="first-num">0</span>
+			<span class="title">number of years experience</span>
+			<span class="last-num">10</span>
+		</div>
+	</div>
+</div>
+
+
+
+	<h3 class="separate">Experience</h3>
+		
+
+			<div class="row">
+			{#experience}
+			 {@lt key=$idx value=2}
+			
+			
+				<div class="col-md-6 exp">
+				<h4>{position}</h4>
+					<p>{company}</p>
+					<p class="exp-dates">{dates}</p>
+					<ul class="duties">
+						{#duties}
+						<li>{.}</li>
+						{/duties}
+					</ul>
+				</div>
+
+			{/lt}
+			{/experience}
+			</div>
+			<div class="row">
+			{#experience}
+			 {@gt key=$idx value=1}
+			
+			
+				<div class="col-md-6 exp">
+				<h4>{position}</h4>
+					<p>{company}</p>
+					<p class="exp-dates">{dates}</p>
+					<ul class="duties">
+						{#duties}
+						<li>{.}</li>
+						{/duties}
+					</ul>
+				</div>
+
+			{/gt}
+			{/experience}
+			</div>
+
+	
+	
+		<h3 class="separate">Education</h3>
+		
+		{#edu}
+		<div class="col-md-6">
+			<h4>{degree}</h4>
+			<p>{school}</p>
+			<p>{graduation}</p>
+		</div>
+			{/edu}
+
+
+{/resume}

@@ -1,0 +1,79 @@
+
+.resume-container{
+	width: 100%;
+    min-height: 90%;
+    overflow: hidden;
+    background: @light;
+    padding: 2%;
+    left: 0;
+    position: fixed;
+    top: 10%;
+}
+.accomplishments{
+	list-style: disc;
+	margin-left: 20px;
+	li{
+		padding: 5px 0;
+		margin: 5px 0;
+		max-width: 450px;
+		font-size: 1em;
+	}
+}
+
+.exp-dates{
+	font-style: italic;
+}
+.duties{
+	margin: 10px 20px;
+	list-style-type: disc;
+	max-width: 450px;
+}
+
+.r-skills{
+	li{
+		.clearfix;
+		margin: 5px 0;
+		font-size: 1em;
+	}
+	.skill{
+		text-align: right;
+		float: left;
+		width: 30%;
+		padding-right: 10px;
+	}
+	.skill-bar{
+		float: left;
+		width: 70%;
+		height: 20px;
+
+		.fill{
+			font-weight: bold;
+			.rounded_corners(3px);
+			background: @secondary;
+			.transition-all();
+			width: 0;
+			color: #fff;
+			text-align: right;
+			padding-right: 3px;
+		}
+
+	}
+}
+.skills-legend{
+	margin-left: 30%;
+	border-top: solid 1px @secondary;
+	text-align: center;
+	font-size: 1em;
+	span{
+		font-style: italic;
+		display: inline-block;
+		
+		&.first-num{
+			float: left;
+		}
+
+		&.last-num{
+			float: right;
+		}
+	}
+}

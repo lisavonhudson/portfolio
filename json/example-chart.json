@@ -1,0 +1,58 @@
+{
+	"carData":[
+		{
+			"id": "car1",
+			"name": "Cheverolet Sonic LT",
+			"cmpg": 33,
+			"cost": 17905
+		},
+		{
+			"id": "car2",
+			"name": "Kia Rio",
+			"cmpg": 32,
+			"cost": 16430
+		},
+		{
+			"id": "car3",
+			"name": "Fiat 500",
+			"cmpg": 34,
+			"cost": 16195
+		},
+		{
+			"id": "car4",
+			"name": "Honda Fit",
+			"cmpg": 30,
+			"cost": 15175
+		},
+		{
+			"id": "car5",
+			"name": "Ford Fiesta SE",
+			"cmpg": 37,
+			"cost": 17075
+		},
+		{
+			"id": "car6",
+			"name": "Suzuki SX4",
+			"cmpg": 26,
+			"cost": 16549
+		},
+		{
+			"id": "car7",
+			"name": "Mitsubishi Mirage",
+			"cmpg": 42,
+			"cost": 18725
+		},
+		{
+			"id": "car8",
+			"name": "Honda Insight",
+			"cmpg": 33,
+			"cost": 18725
+		},
+		{
+			"id": "car9",
+			"name": "Toyota Prius",
+			"cmpg": 50,
+			"cost": 24200
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+	"resume": [
+	{
+		"accomplishments":[
+				"Developed an interactive chart that compares out-of-pocket costs for health plans based on the health care needs of the user",
+				"Developed the user interface for the shopping portion for three state exchanges",
+				"Promoted to a Senior UI Developer",
+				"Designed and built prototypes for Connecture that lead to the company winning contracts for three state exchanges",
+				"Redesigned and developed a web portal where customers could enter a code and renew or upgrade their software",
+				"Redesigned and developed a new website for an acquired company",
+				"Designed and developed two completely new websites for a start-up company"
+
+		],
+
+		"skills":[
+			{
+				"skill": "HTML",
+				"id": "skhtml",
+				"years": 2004
+			},
+			{
+				"skill": "Adobe Photoshop",
+				"id": "skphotoshop",
+				"years": 2004
+			},
+			{
+				"skill": "Adobe Illustrator",
+				"id": "skillus",
+				"years": 2004
+			},
+			{
+				"skill": "CSS",
+				"id": "skcss",
+				"years": 2005
+			},
+			{
+				"skill": "JavaScript",
+				"id": "skjs",
+				"years": 2006
+			},
+			{
+				"skill": "PHP",
+				"id": "skphp",
+				"years": 2007
+			},
+			{
+				"skill": "MySql",
+				"id": "sksql",
+				"years": 2007
+			},
+			{
+				"skill": "AJAX",
+				"id": "skiajax",
+				"years": 2009
+			},
+			{
+				"skill": "jQuery",
+				"id": "skjq",
+				"years": 2009
+			},
+			{
+				"skill": "JSON",
+				"id": "skjson",
+				"years": 2011
+			},
+			{
+				"skill": "Less",
+				"id": "skless",
+				"years": 2011
+			},
+			{
+				"skill": "CSS3",
+				"id": "skcss3",
+				"years": 2011
+			},
+			{
+				"skill": "Responsive Design",
+				"id": "skrd",
+				"years": 2012
+			},
+			{
+				"skill": "Section 508",
+				"id": "sk508",
+				"years": 2012
+			},
+			{
+				"skill": "Axure",
+				"id": "skaxure",
+				"years": 2013
+			},
+			{
+				"skill": "Git",
+				"id": "skgit",
+				"years": 2013
+			}
+
+
+		],
+
+		"experience":[
+			{
+				"position": "Senior UI Developer",
+				"company": "Connecture, Brookfield, WI",
+				"dates": "November 2010 - Present",
+				"duties": [
+						"Create web software HTML and CSS/Less based on wireframes and mockups",
+						"Create interactive elements using jQuery and SVG",
+						"Participate in daily scrum meetings",
+						"Use Eclipse, Apache and most recently Visual Basic to run projects",
+						"Use Jira to manage tasks",
+						"Use Git to version files",
+						"Create wireframes and sketches"
+				]
+			},
+			{
+				"position": "Website Developer",
+				"company": "Custom Computer Services,  Waukesha, WI",
+				"dates": "September 2008 - October 2010",
+				"duties": [
+						"Redesign company web sites",
+						"Create and update consumer facing web sites using HTML, CSS and PHP",
+						"Create interactive elements using jQuery and Javascript",
+						"Use Apache to run sites",
+						"Manage Apache server",
+						"Implement and refine SEO",
+						"Track sites with Google Analytics"
+				]
+			},
+			{
+				"position": "Website Developer",
+				"company": "Abersham Technology Group, Brookfield, WI",
+				"dates": "April 2008 - September 2008",
+				"duties": [
+						"Design new web sites",
+						"Create consumer facing web sites using HTML, CSS and PHP",
+						"Create interactive elements using jQuery ",
+						"Use Apache to run sites",
+						"Manage Apache server",
+						"Implement and refine SEO",
+						"Track site traffic with Google Analytics"
+				]
+			},
+			{
+				"position": "Website Developer - Freelance",
+				"company": "BalFab Services, LLC, Lomira , WI",
+				"dates": "November 2009 - Present",
+				"duties": [
+						"Designed and built a new web site using HTML, CSS/Less and PHP",
+						"Create interactive elements using jQuery ",
+						"Use Apache to run sites",
+						"Implement and refine SEO",
+						"Track site traffic with Google Analytics"
+				]
+			}
+
+		],
+
+		"edu":[
+			{
+				"degree": "Internet Developer Certificate",
+				"school": "Madison Area Technical College",
+				"graduation": "Graduated September 2008"
+			},
+			{
+				"degree": "Bachelor of Music Merchandising, Minor of Business Administration",
+				"school": "University of Wisconsin-Oshkosh",
+				"graduation": "Graduated January 2002"
+			}
+		]
+
+	}
+	]
+}
